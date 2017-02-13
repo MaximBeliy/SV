@@ -1,0 +1,216 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	height: 450px;
+	background-image: url(../img/bck2.jpg);
+	background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	
+}
+
+
+
+
+
+
+
+
+.nav {
+	margin-top: 40px;
+	
+}
+
+.logo {
+	margin-top: 20px;
+
+	
+}
+
+.border  {
+	border-bottom: 1px solid #000000;
+	margin-right: 10px;
+}
+
+h3 {
+	border-bottom: 1px solid #000000;
+
+	
+}
+
+h1 {
+	margin-top: 50px;
+}
+
+.icons {
+	margin-top: 30px;
+}
+
+.about {
+	margin-top: 10px;
+}
+
+/* PROGRESS*/
+
+.tooltip{ 
+  position:relative;
+  float:right;
+}
+.tooltip > .tooltip-inner {background-color: #eebf3f; padding:5px 15px; color:rgb(23,44,66); font-weight:bold; font-size:13px;}
+.popOver + .tooltip > .tooltip-arrow {	border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #eebf3f;}
+
+#mainprogressbar{
+  margin-top: 30px; 
+  margin-left: -210px;
+
+  
+}
+.progress{
+  border-radius: 0;
+  overflow:visible;
+}
+.progress-bar{
+   background: rgb(23,44,60); 
+  -webkit-transition: width 1.5s ease-in-out;
+  transition: width 1.5s ease-in-out;
+}
+
+
+article {
+	display: block;
+	height: auto;
+	background-color: #F5F5F5;
+}
+
+
+
+
+
+
+
+/* ХОВЕР*/
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.content-item {
+  
+  background-image: url('../img/hoverbcg.jpg');
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  height: 160px;
+  margin: 20px auto;
+  margin-left: 30px;
+  padding-right: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 220px;
+  display: inline-block;
+}
+
+
+.content-item:first-child {
+	margin-left: 0px;
+} 
+
+.content-item .overlay {
+  border-bottom: 100px solid #e8c63d;
+  border-left: 100px solid transparent;
+  bottom: 0;
+  height: 0;
+  opacity: .95;
+  position: absolute;
+  right: 0;
+  text-indent: -9999px;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  width: 0;
+
+}
+.content-item:hover .overlay {
+  border-bottom: 800px solid #e8c63d;
+  border-left: 800px solid transparent;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.content-item .corner-overlay-content {
+  bottom: 15px;
+  color: #333;
+  position: absolute;
+  right: 15px;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.content-item:hover .corner-overlay-content {
+  opacity: 0;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.content-item .overlay-content {
+  bottom: 0;
+  color: #333;
+  left: 0;
+  opacity: 0;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.content-item .overlay-content h2 {
+  border-bottom: 1px solid #333;
+  padding: 0 0 12px;
+}
+.content-item:hover .overlay-content {
+  opacity: 1;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -moz-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+
+/* СЕКЦИЯ ВОРКС*/
+
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+/* СЕКЦИЯ КОНТАКТЫ*/
+
+.contact {
+	 
+ 
+  
+padding-top: 10px;
+
+}
+
+
+/* ФУТЕР*/
+
+}
+
